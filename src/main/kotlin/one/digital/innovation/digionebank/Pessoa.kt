@@ -1,8 +1,8 @@
 package one.digital.innovation.digionebank
 
-open class Pessoa(
-    open val name: String,
-    open val cpf: String
+abstract class Pessoa( // Classe abstrata não instância
+     val name: String,
+     val cpf: String
 )
     // private set // Privando apenas o set da variavel cpf
     // 'name' e 'cpf' são os membros das classes
