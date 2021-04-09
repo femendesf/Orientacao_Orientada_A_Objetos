@@ -13,7 +13,7 @@ class Pessoa {
         var rua: String = "Rua Radialista Souza Moreno"
     )
 
-    constructor()
+    constructor() // Contrutor secundario
     fun pessoaInfo() = "$name e $cpf" // Função permite objetos terem comportamentos
 }
 fun main() {
